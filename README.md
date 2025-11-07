@@ -1,16 +1,48 @@
-# React + Vite
+# Lex-kit Rich Text Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple rich text editor built with React and Lex-kit. It provides a minimal setup to get a rich text editor working in a Vite environment.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Bold, italic, and list formatting
+- Text alignment (left, center, right, justify)
+- Image insertion from a URL
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To get a local copy up and running, follow these simple steps.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/en/) (v18 or later recommended)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone <repository-url>
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+### Running the Development Server
+
+To run the app in development mode, run the following command:
+
+```sh
+npm run dev
+```
+
+This will start the development server at `http://localhost:5173`.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev`: Runs the app in the development mode.
+- `npm run build`: Builds the app for production to the `dist` folder.
+- `npm run lint`: Lints the project files.
+- `npm run preview`: Serves the production build locally.
