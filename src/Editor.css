@@ -1,0 +1,44 @@
+.basic-editor {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.basic-toolbar {
+  margin-bottom: 10px;
+}
+
+.basic-toolbar button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+.basic-toolbar button.active {
+  background-color: #ddd;
+}
+
+.basic-toolbar button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.basic-editor-container {
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.basic-content {
+  outline: none;
+}
+
+.basic-placeholder {
+  color: #aaa;
+  position: absolute;
+  pointer-events: none;
+}
